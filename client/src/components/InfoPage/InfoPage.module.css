@@ -1,0 +1,33 @@
+.infoPage {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.infoPage h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.infoPage h3 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.infoPage p {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.infoPage ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.infoPage li {
+  margin-bottom: 10px;
+}

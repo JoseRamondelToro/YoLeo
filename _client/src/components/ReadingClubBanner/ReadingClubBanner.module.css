@@ -1,0 +1,49 @@
+.readingClubBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f135d2;
+  border-radius: 10px;
+  margin: 20px;
+  color: #fff;
+}
+
+.bannerImage {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 40px;
+}
+
+.bannerImage img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.bannerContent {
+  flex: 2;
+}
+
+.bannerContent h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.bannerContent p {
+  font-size: 1.1em;
+  margin-bottom: 30px;
+}
+
+.bannerContent a {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.bannerContent a:hover {
+  background-color: #8f5600;
+}

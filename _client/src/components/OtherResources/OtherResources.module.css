@@ -1,0 +1,66 @@
+.otherResources {
+  padding: 40px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.otherResources h2 {
+  font-size: 2em;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.resourcesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.resourceBlock {
+  padding: 40px;
+  color: #fff;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.videos {
+  background-color: #ffd700;
+  cursor: pointer;
+}
+
+.videos:hover {
+  background-color: #e6be00;
+}
+
+.audiolibros {
+  background-color: #32cd32;
+  cursor: pointer;
+}
+
+.audiolibros:hover {
+  background-color: #2ea02e;
+}
+
+.hemeroteca {
+  background-color: #ff69b4;
+  cursor: pointer;
+}
+
+.hemeroteca:hover {
+  background-color: #e0559d;
+}
+
+.fotografia {
+  background-color: #9370db;
+  cursor: pointer;
+}
+
+.fotografia:hover {
+  background-color: #7a5db0;
+}

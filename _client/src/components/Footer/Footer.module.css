@@ -1,0 +1,89 @@
+.footer {
+  padding: 40px;
+  text-align: center;
+}
+
+.footerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 15%;
+  margin-bottom: 10px;
+}
+
+.footerNav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.footerNav a {
+  text-decoration: none; /* Sin subrayado por defecto */
+  color: #525252;
+  transition: text-decoration 0.2s ease;
+}
+
+.footerNav a:hover {
+  text-decoration: underline; /* Aparece el subrayado al hacer hover */
+}
+
+/* Sección de iconos de redes sociales y descarga de la app */
+.socialDownloadSection {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+/* Estilo para los iconos de redes sociales */
+.socialMediaIcons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}
+
+/* Estilo para la sección de la play store */
+.downloadApp {
+  display: flex;
+  align-items: center;
+}
+
+.playStoreLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.playStoreIcon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  transition: transform 0.3s ease;
+}
+
+.playStoreIcon:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}
+
+/* estilo de las líneas */
+.footerHr {
+  height: 1px;
+  background-color: #4b4b4b;
+  border: none;
+  width: 100%;
+  margin: 20px 0; /* Espaciado superior e inferior */
+}

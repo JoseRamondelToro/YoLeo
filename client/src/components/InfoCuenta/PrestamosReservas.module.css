@@ -1,0 +1,29 @@
+.container {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.status {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.prestamos,
+.reservas {
+  margin-bottom: 20px;
+}
+
+.prestamosActivos,
+.reservasDisponibles {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 10px;
+}
+
+h4 {
+  font-weight: bold;
+}

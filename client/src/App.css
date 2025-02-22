@@ -1,0 +1,12 @@
+/* App general styling */
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* General container for centering content */
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-top: 180px;
+}

@@ -1,0 +1,113 @@
+.bookDetailContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.leftPanel {
+  position: sticky;
+  top: 20px;
+  width: 250px;
+}
+
+.bookCover {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.rentalOptions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 0.5px solid rgb(180, 180, 180);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.rentButton,
+.previewButton {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+}
+
+.previewButton {
+  background-color: #f1faee;
+  color: black;
+}
+
+.rightPanel {
+  width: 70%;
+}
+
+.genres span {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #f1faee;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.recommendedBooks {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.recommendedBooks {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.bookBlock {
+  min-width: 150px;
+  overflow: hidden;
+}
+
+.bookBlock img {
+  width: 150px;
+  height: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.reviewsSection {
+  margin-top: 30px;
+}
+
+.reviewInput {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.submitReview {
+  background-color: #457b9d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+}

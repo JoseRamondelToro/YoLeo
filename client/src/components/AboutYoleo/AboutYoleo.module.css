@@ -1,0 +1,59 @@
+/* About YoLeo styles */
+.aboutYoleo {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
+}
+
+.aboutYoleo h2 {
+  font-size: 2em;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.aboutItem {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.aboutItem img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.aboutItem h3 {
+  font-size: 1em;
+  margin: 15px 0;
+  min-height: 1em; /* Ajusta la altura mínima según lo que necesites */
+  display: flex;
+  align-items: center;
+}
+
+.aboutItem p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.moreDetails {
+  font-weight: bold;
+  color: #d9534f;
+  text-decoration: none;
+  margin-top: auto;
+  align-self: flex-start;
+}

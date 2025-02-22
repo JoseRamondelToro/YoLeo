@@ -1,0 +1,77 @@
+.readingSelections {
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.readingSelections h2 {
+  color: #4a4a4a;
+}
+
+.selectionTabs {
+  display: flex;
+  gap: 35px;
+  margin-bottom: 20px;
+}
+
+.selectionTabs button {
+  background: none;
+  border: none;
+  color: #4a4a4a;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 10px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.selectionTabs button:hover {
+  color: #d9534f;
+  border-bottom: 1px solid #d9534f;
+}
+
+.selectionTabs button.active {
+  font-weight: bold;
+  color: #000;
+}
+
+.selectionBooks {
+  display: flex;
+  gap: 30px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.bookBlock {
+  min-width: 150px;
+  overflow: hidden;
+}
+
+.bookBlock img {
+  width: 150px;
+  height: 220px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.exploreMore {
+  background-color: #ff2600;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: none;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.exploreMore:hover {
+  background-color: #ca0700;
+}
